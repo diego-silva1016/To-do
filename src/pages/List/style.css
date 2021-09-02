@@ -1,0 +1,29 @@
+.listContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.addToDo {
+  height: 20px;
+  border-color: #008000;
+  border-radius: 3px 0 0 3px;
+}
+
+.addToDoButton {
+  height: 26px;
+  border: 0;
+  color: #fff;
+  background: #008000;
+
+  cursor: pointer;
+}
+
+.addToDoButton:disabled{
+  filter: brightness(0.5);
+
+  cursor: default;
+}

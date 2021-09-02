@@ -1,0 +1,12 @@
+.itemContainer {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.removeItem {
+  color: red;
+  margin-left: 15px;
+  cursor: pointer;
+}
